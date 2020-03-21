@@ -1,0 +1,52 @@
+{
+    "npc":[
+        {
+            "id": 1,
+            "name": "Rulf DeGray",
+            "race": "human",
+            "str": 16,
+            "dex": 11,
+            "con": 16,
+            "int": 10,
+            "wis": 9,
+            "cha": 10,
+            "age": 26,
+            "hair": "wavy dyed black",
+            "skin": "smooth golden",
+            "height": "5'9\"",
+            "face": "square, typical",
+            "smell": "lightly of dogs",
+            "faith": "quietly worships Gadriel",
+            "personality":"Cynical, good at keeping secrets, loves training people, frequently asks questions",
+            "alignment":"Lawful Good",
+            "plothook": "looking for his lost brother.",
+            "peoples":"Brinehold city guard",
+            "location": "Brinehold",
+            "notes":""
+        },
+        {
+            "id": 2,
+            "name": "Ashtyn Briarlore",
+            "race": "naina",
+            "str": 20,
+            "dex": 16,
+            "con": 21,
+            "int": 15,
+            "wis": 18,
+            "cha": 18,
+            "age": 1568,
+            "hair": "wavy brown just past shoulders",
+            "skin": "tan caucasian",
+            "height": "5'4\"",
+            "face": "rounded, typical",
+            "smell": "herbs and dirt",
+            "faith": "openly worships chauntea",
+            "personality":"good at keeping secrets, loves helping people, very friendly and welcoming",
+            "alignment":"Lawful Good",
+            "plothook": "trying to find a way back to her sister leola.",
+            "peoples":"",
+            "location": "Watchtower",
+            "notes":"Helped the party thwart a dream eater and save watchtower."
+        }
+    ]
+}
