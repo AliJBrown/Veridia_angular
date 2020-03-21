@@ -1,5 +1,5 @@
 {
-    "npc":[
+    "npcs":[
         {
             "id": 1,
             "name": "Rulf DeGray",
@@ -20,9 +20,10 @@
             "personality":"Cynical, good at keeping secrets, loves training people, frequently asks questions",
             "alignment":"Lawful Good",
             "plothook": "looking for his lost brother.",
-            "peoples":"Brinehold city guard",
+            "people":"Brinehold city guard",
             "location": "Brinehold",
-            "notes":""
+            "notes":"",
+            "deceased": false
         },
         {
             "id": 2,
@@ -44,9 +45,10 @@
             "personality":"good at keeping secrets, loves helping people, very friendly and welcoming",
             "alignment":"Lawful Good",
             "plothook": "trying to find a way back to her sister leola.",
-            "peoples":"",
+            "people":"",
             "location": "Watchtower",
-            "notes":"Helped the party thwart a dream eater and save watchtower."
+            "notes":"Helped the party thwart a dream eater and save watchtower.",
+            "deceased": false
         }
     ]
 }
