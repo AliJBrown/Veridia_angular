@@ -1,3 +1,61 @@
-<h4>-{{npc?.name}}</h4>
-<p>-{{npc?.id}}</p>
+<div *ngIf="npc | async as npc">
+<h4>{{npc?.name}}</h4>
+<!-- <p>{{npc?.id}}</p> -->
+<p>Race: {{npc?.race}}</p>
+<p>Age: {{npc?.age}}</p>
+<p>Height: {{npc?.height}}</p>
+<p>Skin: {{npc?.skin}}</p>
+<p>Hair: {{npc?.hair}}</p>
+<p>Face: {{npc?.face}}</p>
+<p>Build: {{npc?.build}}</p>
+<p>garb: {{npc?.garb}}</p>
+<p>Smell: {{npc?.smell}}</p>
+<p>Description: {{npc?.description}}</p>
+<br>
+<p>Alignment: {{npc?.alignment}}</p>
+<p>Personality: {{npc?.personality}}</p>
+<br>
+<p>Peoples: {{npc?.peoples}}</p><!--possible router link to peoples-->
+<p>Location: {{npc?.location}}</p><!--possible router link to location-->
+<br>
+<p>Plothook: {{npc?.plothook}}</p>
+<br>
+<p>Notes: {{npc?.notes}}</p>
+<div>Deceased:<input type="checkbox" [checked]="npc?.deceased"></div>
+
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Str</th>
+        <th scope="col">Dex</th>
+        <th scope="col">Con</th>
+        <th scope="col">Int</th>
+        <th scope="col">Wis</th>
+        <th scope="col">Cha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Attribute</th>
+        <td>{{npc?.str}}</td>
+        <td>{{npc?.dex}}</td>
+        <td>{{npc?.con}}</td>
+        <td>{{npc?.int}}</td>
+        <td>{{npc?.wis}}</td>
+        <td>{{npc?.cha}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Modifier</th>
+        <td>{{calcMod(npc?.str)}}</td>
+        <td>{{calcMod(npc?.dex)}}</td>
+        <td>{{calcMod(npc?.con)}}</td>
+        <td>{{calcMod(npc?.int)}}</td>
+        <td>{{calcMod(npc?.wis)}}</td>
+        <td>{{calcMod(npc?.cha)}}</td>
+      </tr>
+    </tbody>
+  </table>
+<p></p>
 <button type="submit" class="btn btn-dark" (click)='gotoNpcs(npc)'>Go Back</button>
+</div>

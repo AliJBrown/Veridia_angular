@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { NpcListComponent } from './npc-list/npc-list.component';
 import { NpcDetailComponent } from './npc-detail/npc-detail.component';
+import { AddNpcComponent } from './add-npc/add-npc.component';
 
 
 const npcRoutes: Routes = [
   { path: 'npcs', component:NpcListComponent},
-  { path: 'npc/:id', component: NpcDetailComponent}
+  { path: 'npc/add', component: AddNpcComponent},
+  { path: 'npc/:id', component: NpcDetailComponent},
 ];
 
 @NgModule({
