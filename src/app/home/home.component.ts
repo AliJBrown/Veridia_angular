@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: [],
 })
-export class AppComponent{
+export class HomeComponent{
   title = 'Veridia';
   today = Date.now();
 

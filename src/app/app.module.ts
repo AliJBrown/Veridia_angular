@@ -1,18 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './home/home.component';
+import { NpcModule } from './npc/npc.module';
+
+
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    NpcModule,
     AppRoutingModule,
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    HomeComponent
+  ]
 })
-export class AppModule { }
+export class AppModule { 
+  //Diagnostic only: inspect router config
+  constructor(router: Router){
+    
+  }
+}
