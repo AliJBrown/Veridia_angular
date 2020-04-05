@@ -6,13 +6,15 @@ import { NpcRoutingModule } from './npc-routing.module';
 import {NpcListComponent } from './npc-list/npc-list.component';
 import { NpcDetailComponent } from './npc-detail/npc-detail.component';
 import { AddNpcComponent } from './add-npc/add-npc.component';
+import { EditNpcComponent } from './edit-npc/edit-npc.component';
 
 
 @NgModule({
   declarations: [
     NpcListComponent,
     NpcDetailComponent,
-    AddNpcComponent
+    AddNpcComponent,
+    EditNpcComponent
   ],
   imports: [
     CommonModule,

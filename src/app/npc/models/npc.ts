@@ -2,7 +2,7 @@
  * npc object. this will hold data for npcs
  */
 export interface NPC {
-    
+
     /**
      * Must be a number, is required for npc items persisted in backend
      * backend will create this field for you when you CREATE an npc
@@ -14,6 +14,11 @@ export interface NPC {
      * Required -- must be a string
      */
     name: string;
+
+    /**
+     * String denoting gender
+     */
+    gender: string;
 
     /**
      *Must be a string

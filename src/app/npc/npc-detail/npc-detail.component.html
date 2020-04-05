@@ -2,6 +2,7 @@
 <h4>{{npc?.name}}</h4>
 <!-- <p>{{npc?.id}}</p> -->
 <p>Race: {{npc?.race}}</p>
+<p>Gender: {{npc?.gender}}</p>
 <p>Age: {{npc?.age}}</p>
 <p>Height: {{npc?.height}}</p>
 <p>Skin: {{npc?.skin}}</p>
@@ -57,5 +58,8 @@
     </tbody>
   </table>
 <p></p>
+<button class="btn btn-dark" type="submit" name="submit" id="submit" routerLink="/npc/edit/{{npc?.id}}">
+  Edit
+</button>
 <button type="submit" class="btn btn-dark" (click)='gotoNpcs(npc)'>Go Back</button>
 </div>
