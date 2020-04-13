@@ -110,6 +110,21 @@
       "wis": 12,
       "cha": 12,
       "id": 4
+    },
+    {
+      "race": "human",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "race": "human",
+      "id": 6
+    },
+    {
+      "race": "human",
+      "gender": "female",
+      "id": 7
     }
-  ]
+  ],
+  "HumanFemaleName": []
 }

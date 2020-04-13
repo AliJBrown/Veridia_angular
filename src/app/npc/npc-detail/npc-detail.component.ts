@@ -43,6 +43,16 @@ export class NpcDetailComponent implements OnInit {
     this.router.navigate(['/npcs', {id: npc.id}]);
   }
 
+  public Deceased(npc:NPC){
+    if(npc.deceased)
+    {
+      npc.deceased = false;
+    }else{
+      npc.deceased = true;
+    }
+    this.service.Update(npc.id, npc).subscribe();
+  }
+
   public calcMod(attScore: number): string {
     return calculateMod(attScore);
   }

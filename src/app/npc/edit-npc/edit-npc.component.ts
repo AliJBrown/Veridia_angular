@@ -2,6 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Location } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Observable } from 'rxjs';
+
 
 import calculateMod from '../fifth-modifiers';
 import { NPC } from '../models/npc';
@@ -40,6 +42,16 @@ export class EditNpcComponent implements OnInit {
 
   public Update(npc: NPC): void {
     this.service.Update(npc.id, npc).subscribe(() => this.goBack());
+  }
+
+  public Deceased(npc:NPC){
+    if(npc.deceased)
+    {
+      npc.deceased = false;
+    }else{
+      npc.deceased = true;
+    }
+    this.service.Update(npc.id, npc).subscribe();
   }
 
   public goBack(): void {

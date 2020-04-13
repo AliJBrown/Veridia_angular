@@ -22,7 +22,7 @@
 <p>Plothook: {{npc?.plothook}}</p>
 <br>
 <p>Notes: {{npc?.notes}}</p>
-<div>Deceased:<input type="checkbox" [checked]="npc?.deceased"></div>
+<div>Deceased:<input type="checkbox" [checked]="npc?.deceased" (click)="Deceased(npc)"></div>
 
 <table class="table table-dark">
     <thead>
