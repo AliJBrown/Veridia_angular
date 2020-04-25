@@ -1,13 +1,13 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Location } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { Observable } from 'rxjs';
-
 
 import calculateMod from '../fifth-modifiers';
 import { NPC } from '../models/npc';
 import { NpcDbService } from '../services/npc-db.service';
+import { ConfirmationDialogService } from 'src/services/confirmation-dialog.service';
 
 
 
@@ -21,8 +21,10 @@ export class EditNpcComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private service: NpcDbService,
     private location: Location,
+    private confirmDialog: ConfirmationDialogService
   ) { }
 
   ngOnInit(): void {
@@ -44,11 +46,10 @@ export class EditNpcComponent implements OnInit {
     this.service.Update(npc.id, npc).subscribe(() => this.goBack());
   }
 
-  public Deceased(npc:NPC){
-    if(npc.deceased)
-    {
+  public Deceased(npc: NPC) {
+    if (npc.deceased) {
       npc.deceased = false;
-    }else{
+    } else {
       npc.deceased = true;
     }
     this.service.Update(npc.id, npc).subscribe();
@@ -60,5 +61,17 @@ export class EditNpcComponent implements OnInit {
 
   public calcMod(attScore: number): string {
     return calculateMod(attScore);
+  }
+
+  public Delete(npc: NPC): void {
+    this.confirmDialog.confirm('Please confirm..', 'Do you really want to Delete this NPC?')
+      .then((confirmed) =>
+      {
+        console.log("User Confirmed: ", confirmed);
+        if(confirmed){
+          this.service.Delete(npc.id).subscribe(()=> this.router.navigateByUrl('npcs'));
+        }
+      })
+      .catch(() => console.log('User dismissed the dialog (e.g., by using ESC, clicking the cross icon, or clicking outside the dialog)'))
   }
 }

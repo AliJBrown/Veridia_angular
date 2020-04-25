@@ -82,8 +82,10 @@
     </div>
     <div>
       <label for="deceased">Deceased: </label>
-      <!-- TODO fix checkbox to tie to model -->
       <input type="checkbox" name="deceased" [checked]="npc.deceased" (click)="Deceased(npc)">
+    </div>
+    <div>
+      <button class="btn btn-danger" type="button" id="delete" name="delete" (click)="Delete(npc)">Delete</button>
     </div>
 
     <table class="table table-dark">
@@ -100,7 +102,7 @@
       </thead>
       <tbody>
         <tr>
-          <th> scope="row">Attributes</th>
+          <th scope="row">Attributes</th>
           <td>
             <input type="number" name="str" [(ngModel)]="npc.str">
           </td>
