@@ -4,13 +4,16 @@
     <div class="row">
         <div class="col-md">
             <ul>
-                <li *ngFor="let npc of npcs | async">
+                <li *ngFor="let npc of sortedNPCs">
+                <!-- <li *ngFor="let npc of npcs | async"> -->
                     <a [routerLink]="['/npc', npc.id]">
                         {{npc.name}}
                     </a>
                 </li>
-            </ul>        
+            </ul>
         </div>
     </div>
 </div>
 <button type="submit" class="btn btn-dark" [routerLink]="['/npc/add']" routerLinkActive="router-link-active">Add New</button>
+
+<button type="button" class="btn btn-warning" (click)="get()">TEST GET</button>

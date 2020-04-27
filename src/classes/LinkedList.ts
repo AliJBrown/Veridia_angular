@@ -1,4 +1,5 @@
 import { isDevMode } from "@angular/core";
+import { first } from 'rxjs/operators';
 
 class Node<T>{
     private _object: T;
@@ -37,16 +38,19 @@ export class LinkedList<T>{
     }
 
     public Add(object: T): T {
-        this._size++;
 
         let temp: Node<T> = new Node<T>(object);
         temp.Previous = this._last;
         temp.Next = null;
-        temp.Index = this.Size - 1;
+        temp.Index = this.Size;
+
+        this._size++;
 
         if (this._first == null) {
+            temp.Previous = null;
             this._first = temp;
             this._last = this._first;
+
         }
         else {
             let previous: Node<T> = this._last;
@@ -65,8 +69,20 @@ export class LinkedList<T>{
         }
         while (temp != null) {
             if (temp.Object === object) {
-                temp.Next.Previous = temp.Previous;
-                temp.Previous.Next = temp.Next;
+                if (this._first === temp && this._last === temp) {
+                    this._first = null;
+                    this._last = null;
+                    this._size = 0;
+                    break;
+                } else if (this._first === temp) {
+                    this._first = this._first.Next;
+                }
+                if (temp.Next != null) {
+                    temp.Next.Previous = temp.Previous;
+                }
+                if (temp.Previous != null) {
+                    temp.Previous.Next = temp.Next;
+                }
                 this._size--;
                 deleted = true;
             }
@@ -78,40 +94,127 @@ export class LinkedList<T>{
         return deleted;
     }
 
-    public RemoveAt(i:number){
-        if (!this.IsEmpty) {
-            let temp: Node<T> = this._first;
-            while (temp != null) {
-                if (temp.Index == i) {
-                    this.Delete(temp.Object);
+    public RemoveAt(i: number): boolean {
+        let deleted: boolean = false;
+        let temp: Node<T> = this._first;
+        while (temp != null) {
+            if (temp.Index === i) {
+                if (this._first === temp && this._last === temp) {
+                    this._first = null;
+                    this._last = null;
+                    this._size = 0;
+                    break;
+                } else if (this._first === temp) {
+                    this._first = this._first.Next;
                 }
+                if (temp.Next != null) {
+                    temp.Next.Previous = temp.Previous;
+                }
+                if (temp.Previous != null) {
+                    temp.Previous.Next = temp.Next;
+                }
+                this._size--;
+                deleted = true;
             }
+            if (deleted) {
+                temp.Index -= 1;
+            }
+            temp = temp.Next;
         }
-
+        return deleted;
     }
 
     public SetAtIndex(i: number, object: T) {
-        if (!this.IsEmpty) {
-            let temp: Node<T> = this._first;
-            while (temp != null) {
-                if (temp.Index == i) {
-                    temp.Object = object;
-                }
+        let temp: Node<T> = this._first;
+        while (temp != null) {
+            if (temp.Index == i) {
+                temp.Object = object;
+                break;
             }
+            temp = temp.Next;
         }
+
     }
+
+    /**
+     * insert object after index
+     * @param index - index to insert after
+     * @param object - object to insert
+     */
+    public Insert(index: number, object: T): boolean {
+        let temp: Node<T> = this._first;
+        let newNode: Node<T> = new Node<T>(object);
+        let inserted: boolean = false;
+        while (temp != null) {
+            if (temp.Index == index) {
+                newNode.Previous = temp;
+                if(this._last !== temp){
+                newNode.Next = temp.Next;
+                temp.Next.Previous = newNode;
+                }else{
+                    this._last = newNode;
+                }
+                temp.Next = newNode;
+                inserted = true;
+                temp = temp.Next;
+                temp.Index = index;
+                this._size++;
+            }
+            if (inserted) {
+                temp.Index++;
+            }
+            temp = temp.Next;
+        }
+        return inserted;
+    }
+
 
     public Index(i: number): T {
         let temp: Node<T> = this._first;
+
         if (temp == null) {
+
+            if (isDevMode) {
+                console.error("no such index in LinkedList")
+            }
+
             return null;
         }
+
         while (temp != null) {
             if (temp.Index == i) {
                 return temp.Object;
             }
+            temp = temp.Next;
         }
         return null;
+    }
+
+    public DetectLoop(): boolean {
+        //returns true if loop detected
+        let detected: boolean = false;
+        let temp: Node<T> = this._first;
+        while (temp != null) {
+            if (temp.Visited == true) {
+                detected = true;
+                temp = this._first;
+                while (temp != null) {
+                    temp.Visited = false;
+                    temp = temp.Next;
+                }
+                break;
+            }
+            else {
+                temp.Visited = true;
+                temp = temp.Next;
+            }
+        }
+        temp = this._first;
+        while (temp != null) {
+            temp.Visited = false;
+            temp = temp.Next;
+        }
+        return detected;
     }
 
     public IsPresent(objectToFind: T): boolean {
@@ -123,6 +226,7 @@ export class LinkedList<T>{
             if (temp.Object === objectToFind) {
                 return true;
             }
+            temp = temp.Next;
         }
         return false;
     }
@@ -132,6 +236,7 @@ export class LinkedList<T>{
     }
 }
 
+//TODO TEST CLASS
 export class Queue<T>{
     private _first: Node<T>;
     private _last: Node<T>;
@@ -223,6 +328,7 @@ export class Queue<T>{
     }
 }
 
+//TODO TEST CLASS
 export class Stack<T>{
     private _first: Node<T>;
 

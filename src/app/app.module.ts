@@ -10,12 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-dialog.component';
 import { ConfirmationDialogService } from 'src/services/confirmation-dialog.service';
+import { LandingPageComponent } from './LandingPage/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     PageNotFoundComponent,
-    ConfirmationDialogComponent
+    ConfirmationDialogComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
