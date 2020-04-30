@@ -1,6 +1,7 @@
 import * as decisions from './abstract-decision';
 import { getLocaleWeekEndRange } from '@angular/common';
 import { strictEqual } from 'assert';
+import { isDevMode } from '@angular/core';
 
 export class NameDecisionObject extends decisions.DecisionObject {
     /**store for race*/
@@ -22,7 +23,7 @@ class NameDecisionQuery extends decisions.DecisionQuery {
         if (this.type.toUpperCase() === "RACE") {
             if (decisionObject.race.toUpperCase() === this.compareValue) {
                 console.info("race = human");
-                return this;//.positive.Evaluate(decisionObject);
+                return this.positive.Evaluate(decisionObject);
             }
             else {
                 this.negative.Evaluate(decisionObject);
@@ -30,7 +31,7 @@ class NameDecisionQuery extends decisions.DecisionQuery {
         } else {
             if (decisionObject.gender.toUpperCase() === this.compareValue) {
                 console.info("gender = female");
-                this.positive.Evaluate(decisionObject);
+                return this.positive.Evaluate(decisionObject);
             }
             else {
                 this.negative.Evaluate(decisionObject);
@@ -42,7 +43,9 @@ class NameDecisionQuery extends decisions.DecisionQuery {
 class NameDecisionResult extends decisions.DecisionResult {
 
     public Evaluate(decisionObject: NameDecisionObject): string {
-        console.info(this.result);
+        if (isDevMode) {
+            console.info(this.result);
+        }
         return this.result;
     }
 }
@@ -51,7 +54,7 @@ class NameDecisionResult extends decisions.DecisionResult {
  * decision tree to choose which array to pull name from
  */
 export class NameGenTree {
-    constructor(){}
+    constructor() { }
 
     // private humanFemaleName = <NameDecisionResult>{ title: "human female", result: "http://localhost:3000/HumanFemaleName" };
 
@@ -74,17 +77,8 @@ export class NameGenTree {
         human.positive = humanFemale;
         human.negative = null;
 
-        human.Evaluate(decisionObject);
-
-        // let test = human;
-        // let hold = test;
-        // while (test instanceof NameDecisionQuery) {
-        //     hold = test;
-        //     test = test.Evaluate(decisionObject);
-        // }
-
-        // let url =  hold.Evaluate(decisionObject);
-        // console.info(url);
+        let url: decisions.DecisionResult = human.Evaluate(decisionObject);
+        return url;
     }
 
 }

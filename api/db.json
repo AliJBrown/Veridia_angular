@@ -110,7 +110,98 @@
       "wis": 12,
       "cha": 12,
       "id": 4
+    },
+    {
+      "name": "Alister",
+      "race": "Gnome",
+      "gender": "Male",
+      "age": 365,
+      "height": "2'9\"",
+      "skin": "rugged, pink skin",
+      "hair": "long wavy, auburn hair",
+      "face": "round, scar on the right side with a single white eye",
+      "build": "muscular",
+      "garb": "robes of the cloister",
+      "smell": "clean if a bit musty",
+      "alignment": "Nuetral Good",
+      "personality": "reserved but cheery",
+      "people": "Cloister of Atonement",
+      "location": "Cloister of Atonement",
+      "plothook": "Was once part of the Golden Order, upon his travels he helped discover a means to close the rift in Slumber Valley. All of his companions were shorter lived races and he is the only one left. He trains the Oracles of Atonement to praise Gadriel and see travelers safely through this scarred land.",
+      "notes": "Rubezhal has tried to open the rift once before and scarred Alister deeply on his right side during the battle. Alister was able to imprison him but he cannot be destroyed. If the rift is open the Shadowfell will slowly conquer this land. That cannot be allowed.\n\nHe has discovered that after his banishment, Rubezhal was cast to the 9 hells and over centuries made a name for himself among the Demons, he is himself now a Demon, which means the only way to truly destroy him is on his plane of the 9 hells.",
+      "str": 14,
+      "dex": 13,
+      "con": 16,
+      "int": 11,
+      "wis": 17,
+      "cha": 12,
+      "id": 5
     }
   ],
-  "HumanFemaleName": []
+  "HumanFemaleName": [
+    {
+      "id":1,
+      "name":"Shohmesah Rakur"
+    },
+    {
+      "id":2,
+      "name":"Ziruh Nohlen"
+    },
+    {
+      "id":3,
+      "name":"Tadrana Gloomore"
+    },
+    {
+      "id":4,
+      "name":"Ceerlin Smartrock"
+    },
+    {
+      "id":5,
+      "name":"Koli Chodz"
+    },
+    {
+      "id":6,
+      "name":"Hi Stenursk"
+    },
+    {
+      "id":7,
+      "name":"Sigevra Lowrock"
+    },
+    {
+      "id":8,
+      "name":"Vethe Skullshadow"
+    },
+    {
+      "id":9,
+      "name":"Thezhitho Buzulrehd"
+    },
+    {
+      "id":10,
+      "name":"Raphu Suvehr"
+    },
+    {
+      "id":11,
+      "name":"Seraru Nyergatreve"
+    },
+    {
+      "id":12,
+      "name":"Hirsu Horoma"
+    },
+    {
+      "id":13,
+      "name":"Shui Chao"
+    },
+    {
+      "id":14,
+      "name":"Chao Shue"
+    },
+    {
+      "id":15,
+      "name":"Seint Besiro"
+    },
+    {
+      "id":16,
+      "name":"Oncm Pogega"
+    }
+  ]
 }
