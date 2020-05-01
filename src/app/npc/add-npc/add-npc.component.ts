@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 
 import { NpcDbService } from '../services/npc-db.service';
-import * as NameGen from '../npc-name-gen';
+import * as NameGen from '../npc-name-gen-tree';
 import { GenService } from '../services/gen.service';
 import calculateMod from '../fifth-modifiers';
 import { NPC } from '../models/npc';
