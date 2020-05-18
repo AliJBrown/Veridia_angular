@@ -1,5 +1,6 @@
 import { Observable } from "rxjs";
 import { NPCNAME } from "../models/npcName";
+import { UrlObject } from '../models/url-object';
 
 /**
  * interface defines CRUD operations for name generator
@@ -15,5 +16,5 @@ export interface IGenService{
   /**
    * Retrieves names by id
    */
-  GetName(url:string): Promise<NPCNAME> | Observable<NPCNAME>;
+  GetName(url:string);
 }

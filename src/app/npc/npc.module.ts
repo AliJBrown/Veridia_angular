@@ -22,4 +22,4 @@ import { EditNpcComponent } from './edit-npc/edit-npc.component';
     NpcRoutingModule
   ]
 })
-export class NpcModule { }
+export class NpcModule {}

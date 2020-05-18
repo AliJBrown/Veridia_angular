@@ -55,20 +55,21 @@ export class AddNpcComponent implements OnInit {
     let nameTree = new NameGen.NameGenTree();
     let url = nameTree.Evaluate(this.decisionObject);
 
-    //get id from name gen and feed to api to retrieve npc observable
-    //switchmap allows it to pull the id and discard if a change was made to it before rendering
-    //this is also best practice if the id will be reused to populate this component without
-    //rendering the entire page again.
-    let npcName:string;
-    this.genService.GetName(url).subscribe(res =>{
-      npcName = res.name;
-      this.npc.name = npcName;
-      // if(isDevMode){
-      //   console.debug(npcName);
-      // }
+    let fUrl = url.fURL + "/" + url.fnum;
+    let lUrl = url.lURL + "/" + url.lnum;
+
+    //dirty name gen but it works 99% of the time
+    //first call gets first name and appends to npc
+    this.genService.GetName(fUrl).then(res => {
+      res.subscribe(result => {
+        this.npc.name = result.name;
+      });
     });
-
-
-
+    //second call gets last name and appends to npc
+    this.genService.GetName(lUrl).then(res => {
+      res.subscribe(result => {
+        this.npc.name += " " + result.name;
+      });
+    });
   }
 }

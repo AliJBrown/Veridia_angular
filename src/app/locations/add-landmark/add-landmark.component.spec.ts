@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EditLocationComponent } from './edit-location.component';
+import { AddLandmarkComponent } from './add-landmark.component';
 
-describe('EditLocationComponent', () => {
-  let component: EditLocationComponent;
-  let fixture: ComponentFixture<EditLocationComponent>;
+describe('AddLandmarkComponent', () => {
+  let component: AddLandmarkComponent;
+  let fixture: ComponentFixture<AddLandmarkComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EditLocationComponent ]
+      declarations: [ AddLandmarkComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EditLocationComponent);
+    fixture = TestBed.createComponent(AddLandmarkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -4,6 +4,7 @@ import { NPCNAME } from '../models/npcName';
 import { catchError } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
 import { IGenService } from './igen.service';
+import { UrlObject } from '../models/url-object';
 
 
 @Injectable({
@@ -20,23 +21,12 @@ export class GenService implements IGenService {
 
   constructor(private http: HttpClient) { }
 
-
-  GetName(url: string) {
+  async GetName(url: string){
     //fetch name from api
-    const r = this.GetRandomInt(17);
-    const urlEnd = `${url}/${r}`;
-
-    //TODO test line
-    console.log(urlEnd);
-
-    return this.http.get<NPCNAME>(urlEnd)
+    return this.http.get<NPCNAME>(url)
       .pipe(
-        catchError(this.handleError<NPCNAME>(`GetName id=${r}`))
+        catchError(this.handleError<NPCNAME>(`GetName id=${url}`))
       );
-  }
-
-  private GetRandomInt(max: number): number {
-    return Math.floor(Math.random() * Math.floor(max));
   }
 
   private handleError<T>(operation = 'operation', result?: T) {

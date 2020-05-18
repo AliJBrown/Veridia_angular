@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './edit-location.component.html',
   styleUrls: ['./edit-location.component.css']
 })
-export class EditLocationComponent implements OnInit {
+export class EditCityComponent implements OnInit {
 
   constructor() { }
 
