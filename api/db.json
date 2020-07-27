@@ -142,9 +142,35 @@
       "gender": "female",
       "name": "Koli Chodz",
       "id": 6
+    },
+    {
+      "name": "Albela Azak",
+      "race": "Goblin",
+      "gender": "Female",
+      "age": 58,
+      "height": "3'2\"",
+      "skin": "greenish",
+      "hair": "long grey and whispy",
+      "face": "pointed, wrinkled",
+      "build": "small and frail",
+      "garb": "dirty shaman gown made from scraps",
+      "smell": "flowers and dirt",
+      "str": 10,
+      "dex": 10,
+      "con": 14,
+      "int": 8,
+      "wis": 16,
+      "cha": 10,
+      "id": 7,
+      "alignment": "Chaotic Nuetral",
+      "personality": "helpful, everything is for her people",
+      "people": "Hiboux Horde",
+      "location": "Hiboux Forest",
+      "plothook": "Wants to depose the current leaders of her tribe to work closer with the Golden Order.",
+      "notes": "Helped the group infiltrate and kill the orc leaders. requested a meeting with the Golden Order to establish a peace and trade.",
+      "description": "Likes to test people at every opportunity. Speaks cryptically sometimes almost unaware she is doing it."
     }
   ],
-
   "HumanFemaleName": [
     {
       "id": 1,
@@ -211,947 +237,959 @@
       "name": "Oncm"
     },
     {
-      "id":17,
-      "name":"Zismeseih"
+      "id": 17,
+      "name": "Zismeseih"
     },
     {
-      "id":18,
-      "name":"Ureil"
+      "id": 18,
+      "name": "Ureil"
     },
     {
-      "id":19,
-      "name":"Nerlervan"
+      "id": 19,
+      "name": "Nerlervan"
     },
     {
-      "id":20,
-      "name":"Solrul"
+      "id": 20,
+      "name": "Solrul"
     },
     {
-      "id":21,
-      "name":"Relel"
+      "id": 21,
+      "name": "Relel"
     },
     {
-      "id":22,
-      "name":"La"
+      "id": 22,
+      "name": "La"
     },
     {
-      "id":23,
-      "name":"Wonofra"
+      "id": 23,
+      "name": "Wonofra"
     },
     {
-      "id":24,
-      "name":"Lithre"
+      "id": 24,
+      "name": "Lithre"
     },
     {
-      "id":25,
-      "name":"Chichefi"
+      "id": 25,
+      "name": "Chichefi"
     },
     {
-      "id":26,
-      "name":"Hosi"
+      "id": 26,
+      "name": "Hosi"
     },
     {
-      "id":27,
-      "name":"Vamvagras"
+      "id": 27,
+      "name": "Vamvagras"
     },
     {
-      "id":28,
-      "name":"Samzen"
+      "id": 28,
+      "name": "Samzen"
     },
     {
-      "id":29,
-      "name":"Nia"
+      "id": 29,
+      "name": "Nia"
     },
     {
-      "id":30,
-      "name":"Pua"
+      "id": 30,
+      "name": "Pua"
     },
     {
-      "id":31,
-      "name":"Luatv"
+      "id": 31,
+      "name": "Luatv"
     },
     {
-      "id":32,
-      "name":"Buivf"
+      "id": 32,
+      "name": "Buivf"
     }
   ],
-
-  "HumanMaleName":[
+  "HumanMaleName": [
     {
-      "id":1,
+      "id": 1,
       "name": "Nhahlan"
     },
     {
-      "id":2,
-      "name":"Fahnum"
+      "id": 2,
+      "name": "Fahnum"
     },
     {
-      "id":3,
-      "name":"Greu"
+      "id": 3,
+      "name": "Greu"
     },
     {
-      "id":4,
-      "name":"Gardil"
+      "id": 4,
+      "name": "Gardil"
     },
     {
-      "id":5,
-      "name":"Gidor"
+      "id": 5,
+      "name": "Gidor"
     },
     {
-      "id":6,
-      "name":"Kan"
+      "id": 6,
+      "name": "Kan"
     },
     {
-      "id":7,
-      "name":"Zerbur"
+      "id": 7,
+      "name": "Zerbur"
     },
     {
-      "id":8,
-      "name":"Math"
+      "id": 8,
+      "name": "Math"
     },
     {
-      "id":9,
-      "name":"Tehkak-Mah"
+      "id": 9,
+      "name": "Tehkak-Mah"
     },
     {
-      "id":10,
-      "name":"Bam-Zuth"
+      "id": 10,
+      "name": "Bam-Zuth"
     },
     {
-      "id":11,
-      "name":"Vlarlislaur"
+      "id": 11,
+      "name": "Vlarlislaur"
     },
     {
-      "id":12,
-      "name":"Relmaut"
+      "id": 12,
+      "name": "Relmaut"
     },
     {
-      "id":12,
-      "name":"Wo"
+      "id": 12,
+      "name": "Wo"
     },
     {
-      "id":13,
-      "name":"Puvartoz"
+      "id": 13,
+      "name": "Puvartoz"
     },
     {
-      "id":14,
-      "name":"Tetes"
+      "id": 14,
+      "name": "Tetes"
     },
     {
-      "id":15,
-      "name":"Tu"
+      "id": 15,
+      "name": "Tu"
     },
     {
-      "id":16,
-      "name":"Mumer"
+      "id": 16,
+      "name": "Mumer"
     },
     {
-      "id":17,
-      "name":"Mahlun"
+      "id": 17,
+      "name": "Mahlun"
     },
     {
-      "id":18,
-      "name":"Tugrerk"
+      "id": 18,
+      "name": "Tugrerk"
     },
     {
-      "id":19,
-      "name":"Ival"
+      "id": 19,
+      "name": "Ival"
     },
     {
-      "id":20,
-      "name":"Gadgof"
+      "id": 20,
+      "name": "Gadgof"
     },
     {
-      "id":21,
-      "name":"Maf"
+      "id": 21,
+      "name": "Maf"
     },
     {
-      "id":22,
-      "name":"Lelvon"
+      "id": 22,
+      "name": "Lelvon"
     },
     {
-      "id":23,
-      "name":"Ur"
+      "id": 23,
+      "name": "Ur"
     },
     {
-      "id":24,
-      "name":"Jizan-Vod"
+      "id": 24,
+      "name": "Jizan-Vod"
     },
     {
-      "id":25,
-      "name":"Lu-Roz"
+      "id": 25,
+      "name": "Lu-Roz"
     },
     {
-      "id":26,
-      "name":"Gaunranzot"
+      "id": 26,
+      "name": "Gaunranzot"
     },
     {
-      "id":27,
-      "name":"Serac"
+      "id": 27,
+      "name": "Serac"
     },
     {
-      "id":28,
-      "name":"Qa"
+      "id": 28,
+      "name": "Qa"
     },
     {
-      "id":29,
-      "name":"Shi"
+      "id": 29,
+      "name": "Shi"
     },
     {
-      "id":30,
-      "name":"Zorduetin"
+      "id": 30,
+      "name": "Zorduetin"
     },
     {
-      "id":31,
-      "name":"Rearar"
+      "id": 31,
+      "name": "Rearar"
     }
   ],
-
-  "HumanNBName":[],
-
-  "HumanFamilyName":[
+  "HumanNBName": [],
+  "HumanFamilyName": [
     {
-      "id":1,
-      "name":"Rakur"
+      "id": 1,
+      "name": "Rakur"
     },
     {
-      "id":2,
-      "name":"Nohlen"
+      "id": 2,
+      "name": "Nohlen"
     },
     {
-      "id":3,
-      "name":"Gloomore"
+      "id": 3,
+      "name": "Gloomore"
     },
     {
-      "id":4,
-      "name":"Smartrock"
+      "id": 4,
+      "name": "Smartrock"
     },
     {
-      "id":5,
-      "name":"Chodz"
+      "id": 5,
+      "name": "Chodz"
     },
     {
-      "id":6,
-      "name":"Stenursk"
+      "id": 6,
+      "name": "Stenursk"
     },
     {
-      "id":7,
-      "name":"Lowrock"
+      "id": 7,
+      "name": "Lowrock"
     },
     {
-      "id":8,
-      "name":"Skullshadow"
+      "id": 8,
+      "name": "Skullshadow"
     },
     {
-      "id":9,
-      "name":"Buzulrehd"
+      "id": 9,
+      "name": "Buzulrehd"
     },
     {
-      "id":10,
-      "name":"Suvehr"
+      "id": 10,
+      "name": "Suvehr"
     },
     {
-      "id":11,
-      "name":"Nyergatreve"
+      "id": 11,
+      "name": "Nyergatreve"
     },
     {
-      "id":12,
-      "name":"Horoma"
+      "id": 12,
+      "name": "Horoma"
     },
     {
-      "id":13,
-      "name":"Chao"
+      "id": 13,
+      "name": "Chao"
     },
     {
-      "id":14,
-      "name":"Shue"
+      "id": 14,
+      "name": "Shue"
     },
     {
-      "id":15,
-      "name":"Besiro"
+      "id": 15,
+      "name": "Besiro"
     },
     {
-      "id":16,
-      "name":"Pogega"
+      "id": 16,
+      "name": "Pogega"
     },
     {
-      "id":17,
-      "name":"Pemma"
+      "id": 17,
+      "name": "Pemma"
     },
     {
-      "id":18,
-      "name":"Khehla"
+      "id": 18,
+      "name": "Khehla"
     },
     {
-      "id":19,
-      "name":"Glorymaul"
+      "id": 19,
+      "name": "Glorymaul"
     },
     {
-      "id":20,
-      "name":"Leafsplitter"
+      "id": 20,
+      "name": "Leafsplitter"
     },
     {
-      "id":21,
-      "name":"Vedz"
+      "id": 21,
+      "name": "Vedz"
     },
     {
-      "id":22,
-      "name":"Surnan"
+      "id": 22,
+      "name": "Surnan"
     },
     {
-      "id":23,
-      "name":"Greenblight"
+      "id": 23,
+      "name": "Greenblight"
     },
     {
-      "id":24,
-      "name":"Coldstalker"
+      "id": 24,
+      "name": "Coldstalker"
     },
     {
-      "id":25,
-      "name":"Zikdavaft"
+      "id": 25,
+      "name": "Zikdavaft"
     },
     {
-      "id":26,
-      "name":"Vahkild"
+      "id": 26,
+      "name": "Vahkild"
     },
     {
-      "id":27,
-      "name":"Vrumzithive"
+      "id": 27,
+      "name": "Vrumzithive"
     },
     {
-      "id":28,
-      "name":"Ilzano"
+      "id": 28,
+      "name": "Ilzano"
     },
     {
-      "id":29,
-      "name":"Kiao"
+      "id": 29,
+      "name": "Kiao"
     },
     {
-      "id":30,
-      "name":"Cunavu"
+      "id": 30,
+      "name": "Cunavu"
     },
     {
-      "id":31,
-      "name":"Puscastal"
+      "id": 31,
+      "name": "Puscastal"
     },
     {
-      "id":32,
-      "name":"Shai"
+      "id": 32,
+      "name": "Shai"
     },
     {
-      "id":33,
-      "name":"Rhassi"
+      "id": 33,
+      "name": "Rhassi"
     },
     {
-      "id":34,
-      "name":"Minir"
+      "id": 34,
+      "name": "Minir"
     },
     {
-      "id":35,
-      "name":"Terrabloom"
+      "id": 35,
+      "name": "Terrabloom"
     },
     {
-      "id":36,
-      "name":"Rockgazer"
+      "id": 36,
+      "name": "Rockgazer"
     },
     {
-      "id":37,
-      "name":"Shaz"
+      "id": 37,
+      "name": "Shaz"
     },
     {
-      "id":38,
-      "name":"Nanursk"
+      "id": 38,
+      "name": "Nanursk"
     },
     {
-      "id":39,
-      "name":"Shieldflaw"
+      "id": 39,
+      "name": "Shieldflaw"
     },
     {
-      "id":40,
-      "name":"Mirtharm"
+      "id": 40,
+      "name": "Mirtharm"
     },
     {
-      "id":41,
-      "name":"Muthupruuk"
+      "id": 41,
+      "name": "Muthupruuk"
     },
     {
-      "id":42,
-      "name":"Hajuk"
+      "id": 42,
+      "name": "Hajuk"
     },
     {
-      "id":43,
-      "name":"Hamzurnatve"
+      "id": 43,
+      "name": "Hamzurnatve"
     },
     {
-      "id":44,
-      "name":"Nulbulmi"
+      "id": 44,
+      "name": "Nulbulmi"
     },
     {
-      "id":45,
-      "name":"Sim"
+      "id": 45,
+      "name": "Sim"
     },
     {
-      "id":46,
-      "name":"Chei"
+      "id": 46,
+      "name": "Chei"
     },
     {
-      "id":47,
-      "name":"Canzihos"
+      "id": 47,
+      "name": "Canzihos"
     },
     {
-      "id":48,
-      "name":"Osqadron"
+      "id": 48,
+      "name": "Osqadron"
     },
     {
-      "id":49,
-      "name":"Dessil"
+      "id": 49,
+      "name": "Dessil"
     },
     {
-      "id":50,
-      "name":"Rhunnin"
+      "id": 50,
+      "name": "Rhunnin"
     },
     {
-      "id":51,
-      "name":"Serpentcrag"
+      "id": 51,
+      "name": "Serpentcrag"
     },
     {
-      "id":52,
-      "name":"Skullchewer"
+      "id": 52,
+      "name": "Skullchewer"
     },
     {
-      "id":53,
-      "name":"Nask"
+      "id": 53,
+      "name": "Nask"
     },
     {
-      "id":54,
-      "name":"Vorkask"
+      "id": 54,
+      "name": "Vorkask"
     },
     {
-      "id":55,
-      "name":"Wheatwolf"
+      "id": 55,
+      "name": "Wheatwolf"
     },
     {
-      "id":56,
-      "name":"Alpenflaw"
+      "id": 56,
+      "name": "Alpenflaw"
     },
     {
-      "id":57,
-      "name":"Zachohpufk"
+      "id": 57,
+      "name": "Zachohpufk"
     },
     {
-      "id":58,
-      "name":"Nahrak"
+      "id": 58,
+      "name": "Nahrak"
     },
     {
-      "id":59,
-      "name":"Gududirgi"
+      "id": 59,
+      "name": "Gududirgi"
     },
     {
-      "id":60,
-      "name":"Togornya"
+      "id": 60,
+      "name": "Togornya"
     },
     {
-      "id":61,
-      "name":"Zue"
+      "id": 61,
+      "name": "Zue"
     },
     {
-      "id":62,
-      "name":"San"
+      "id": 62,
+      "name": "San"
     },
     {
-      "id":63,
-      "name":"Ranzabrin"
+      "id": 63,
+      "name": "Ranzabrin"
     },
     {
-      "id":64,
-      "name":"Hisosqo"
+      "id": 64,
+      "name": "Hisosqo"
     }
   ],
-
-  "DwarfFemaleName":[],
-  "DwarfMaleName":[],
-  "DwarfNBName":[],
-  "ElfChildName":[],
-  "ElfFemaleName":[],
-  "ElfMaleName":[],
-  "ElfNBName":[],
-  "ElfFamilyName":[],
-  "DrowFemaleName":[],
-  "DrowMaleName":[],
-  "DrowNBName":[],
-  "DrowFamilyName":[],
-  "HalfElfFemaleName":[],
-  "HalfElfMaleName":[],
-  "HalfElfNBName":[],
-  "HalfElfFamilyName":[],
-  "AasimarFemaleName":[],
-  "AasimarMaleName":[],
-  "AasimarNBName":[],
-  "AasimarFamilyName":[],
-  "DeepGnomeFemaleName":[],
-  "DeepGnomeMaleName":[],
-  "DeepGnomeNBName":[],
-  "DeepGnomeFamilyName":[],
-  "GnomeFemaleName":[],
-  "GnomeMaleName":[],
-  "GnomeNBName":[],
-  "GnomeFamilyName":[],
-  "GoliathFemaleName":[],
-  "GoliathMaleName":[],
-  "GoliathNBName":[],
-  "GolaithFamilyName":[],
-  "HalfOrcFemaleName":[],
-  "HalfOrcMaleName":[],
-  "HalfOrcNBName":[],
-  "HalfOrcFamilyName":[],
-  "HalflingFemaleName":[],
-  "HalflingMaleName":[],
-  "HalflingNBName":[],
-  "HalflingFamilyName":[],
-  "TieflingFemaleName":[],
-  "TieflingMaleName":[],
-  "TieflingNBName":[],
-  "TieflingFamilyName":[],
-  "DragonbornFemaleName":[],
-  "DragonbornMaleName":[],
-  "DragonbornNBName":[],
-  "DragonbornFamilyName":[],
-  "GenasiFemaleName":[],
-  "GenasiMaleName":[],
-  "GenasiNBName":[],
-  "GenasiFamilyName":[],
-  "BugbearFemaleName":[],
-  "BugbearMaleName":[],
-  "BugbearNBName":[],
-  "BugbearFamilyName":[],
-  "AarokocraFemaleName":[],
-  "AarokocraMaleName":[],
-  "AarokocraNBName":[],
-  "AarokocraFamilyName":[],
-  "CentaurFemaleName":[],
-  "CentaurMaleName":[],
-  "CentaurNBName":[],
-  "CentaurFamilyName":[],
-  "ChangelingFemaleName":[],
-  "ChangelingMaleName":[],
-  "ChangelingNBName":[],
-  "ChangelingFamilyName":[],
-  "DevaFemaleName":[],
-  "DevaMaleName":[],
-  "DevaNBName":[],
-  "DevaFamilyName":[],
-  "EladrinFemaleName":[],
-  "EladrinMaleName":[],
-  "EladrinNBName":[],
-  "EladrinFamilyName":[],
-  "FirbolgFemaleName":[],
-  "FirbolgMaleName":[],
-  "FirbolgNBName":[],
-  "FirbolgFamilyName":[],
-  "GithzeraiFemaleName":[],
-  "GithzeraiMaleName":[],
-  "GithzeraiNBName":[],
-  "GithzeraiFamilyName":[],
-  "GnollFemaleName":[],
-  "GnollMaleName":[],
-  "GnollNBName":[],
-  "GnollFamilyName":[],
-
-  "GoblinFemaleName":[
+  "DwarfFemaleName": [],
+  "DwarfMaleName": [],
+  "DwarfNBName": [],
+  "ElfChildName": [],
+  "ElfFemaleName": [],
+  "ElfMaleName": [],
+  "ElfNBName": [],
+  "ElfFamilyName": [],
+  "DrowFemaleName": [],
+  "DrowMaleName": [],
+  "DrowNBName": [],
+  "DrowFamilyName": [],
+  "HalfElfFemaleName": [],
+  "HalfElfMaleName": [],
+  "HalfElfNBName": [],
+  "HalfElfFamilyName": [],
+  "AasimarFemaleName": [],
+  "AasimarMaleName": [],
+  "AasimarNBName": [],
+  "AasimarFamilyName": [],
+  "DeepGnomeFemaleName": [],
+  "DeepGnomeMaleName": [],
+  "DeepGnomeNBName": [],
+  "DeepGnomeFamilyName": [],
+  "GnomeFemaleName": [],
+  "GnomeMaleName": [],
+  "GnomeNBName": [],
+  "GnomeFamilyName": [],
+  "GoliathFemaleName": [],
+  "GoliathMaleName": [],
+  "GoliathNBName": [],
+  "GolaithFamilyName": [],
+  "HalfOrcFemaleName": [],
+  "HalfOrcMaleName": [],
+  "HalfOrcNBName": [],
+  "HalfOrcFamilyName": [],
+  "HalflingFemaleName": [],
+  "HalflingMaleName": [],
+  "HalflingNBName": [],
+  "HalflingFamilyName": [],
+  "TieflingFemaleName": [],
+  "TieflingMaleName": [],
+  "TieflingNBName": [],
+  "TieflingFamilyName": [],
+  "DragonbornFemaleName": [],
+  "DragonbornMaleName": [],
+  "DragonbornNBName": [],
+  "DragonbornFamilyName": [],
+  "GenasiFemaleName": [],
+  "GenasiMaleName": [],
+  "GenasiNBName": [],
+  "GenasiFamilyName": [],
+  "BugbearFemaleName": [],
+  "BugbearMaleName": [],
+  "BugbearNBName": [],
+  "BugbearFamilyName": [],
+  "AarokocraFemaleName": [],
+  "AarokocraMaleName": [],
+  "AarokocraNBName": [],
+  "AarokocraFamilyName": [],
+  "CentaurFemaleName": [],
+  "CentaurMaleName": [],
+  "CentaurNBName": [],
+  "CentaurFamilyName": [],
+  "ChangelingFemaleName": [],
+  "ChangelingMaleName": [],
+  "ChangelingNBName": [],
+  "ChangelingFamilyName": [],
+  "DevaFemaleName": [],
+  "DevaMaleName": [],
+  "DevaNBName": [],
+  "DevaFamilyName": [],
+  "EladrinFemaleName": [],
+  "EladrinMaleName": [],
+  "EladrinNBName": [],
+  "EladrinFamilyName": [],
+  "FirbolgFemaleName": [],
+  "FirbolgMaleName": [],
+  "FirbolgNBName": [],
+  "FirbolgFamilyName": [],
+  "GithzeraiFemaleName": [],
+  "GithzeraiMaleName": [],
+  "GithzeraiNBName": [],
+  "GithzeraiFamilyName": [],
+  "GnollFemaleName": [],
+  "GnollMaleName": [],
+  "GnollNBName": [],
+  "GnollFamilyName": [],
+  "GoblinFemaleName": [
     {
-      "id":1,
-      "name":"Dugrul"
+      "id": 1,
+      "name": "Dugrul"
     },
     {
-      "id":2,
-      "name":"Penvu"
+      "id": 2,
+      "name": "Penvu"
     },
     {
-      "id":3,
-      "name":"Borgroyit"
+      "id": 3,
+      "name": "Borgroyit"
     },
     {
-      "id":4,
-      "name":"Rardro"
+      "id": 4,
+      "name": "Rardro"
     },
     {
-      "id":5,
-      "name":"Galga"
+      "id": 5,
+      "name": "Galga"
     },
     {
-      "id":6,
-      "name":"Snailface"
+      "id": 6,
+      "name": "Snailface"
     },
     {
-      "id":7,
-      "name":"Slugmug"
+      "id": 7,
+      "name": "Slugmug"
     },
     {
-      "id":8,
-      "name":"Wormflank"
+      "id": 8,
+      "name": "Wormflank"
     },
     {
-      "id":9,
-      "name":"Bugbite"
+      "id": 9,
+      "name": "Bugbite"
     },
     {
-      "id":10,
-      "name":"Redeye"
+      "id": 10,
+      "name": "Redeye"
     },
     {
-      "id":11,
-      "name":"Qilgot"
+      "id": 11,
+      "name": "Qilgot"
     },
     {
-      "id":12,
-      "name":"Dalveguk"
+      "id": 12,
+      "name": "Dalveguk"
     },
     {
-      "id":13,
-      "name":"Abal"
+      "id": 13,
+      "name": "Abal"
     },
     {
-      "id":14,
-      "name":"Gerdrit"
+      "id": 14,
+      "name": "Gerdrit"
     },
     {
-      "id":15,
-      "name":"Mulga"
+      "id": 15,
+      "name": "Mulga"
     },
     {
-      "id":16,
-      "name":"Mite"
+      "id": 16,
+      "name": "Mite"
     },
     {
-      "id":17,
-      "name":"Grubgrub"
+      "id": 17,
+      "name": "Grubgrub"
     },
     {
-      "id":18,
-      "name":"Flatcheek"
+      "id": 18,
+      "name": "Flatcheek"
     },
     {
-      "id":19,
-      "name":"Crawly"
+      "id": 19,
+      "name": "Crawly"
     },
     {
-      "id":20,
-      "name":"No-Ear"
+      "id": 20,
+      "name": "No-Ear"
     },
     {
-      "id":21,
-      "name":"Anren"
+      "id": 21,
+      "name": "Anren"
     },
     {
-      "id":22,
-      "name":"Bos"
+      "id": 22,
+      "name": "Bos"
     },
     {
-      "id":23,
-      "name":"Belgredil"
+      "id": 23,
+      "name": "Belgredil"
     },
     {
-      "id":24,
-      "name":"Venren"
+      "id": 24,
+      "name": "Venren"
     },
     {
-      "id":25,
-      "name":"Gok"
+      "id": 25,
+      "name": "Gok"
     },
     {
-      "id":26,
-      "name":"Uglyfoot"
+      "id": 26,
+      "name": "Uglyfoot"
     },
     {
-      "id":27,
-      "name":"No-Ears"
+      "id": 27,
+      "name": "No-Ears"
     },
     {
-      "id":28,
-      "name":"Numbnose"
+      "id": 28,
+      "name": "Numbnose"
     },
     {
-      "id":29,
-      "name":"Smugwill"
+      "id": 29,
+      "name": "Smugwill"
     },
     {
-      "id":30,
-      "name":"Fatcheeks"
+      "id": 30,
+      "name": "Fatcheeks"
     },
     {
-      "id":31,
-      "name":"Jalzak"
+      "id": 31,
+      "name": "Jalzak"
     },
     {
-      "id":32,
-      "name":"Valgollor"
+      "id": 32,
+      "name": "Valgollor"
     },
     {
-      "id":33,
-      "name":"Gibro"
+      "id": 33,
+      "name": "Gibro"
     },
     {
-      "id":34,
-      "name":"Egrul"
+      "id": 34,
+      "name": "Egrul"
     },
     {
-      "id":35,
-      "name":"Ralnenno"
+      "id": 35,
+      "name": "Ralnenno"
     },
     {
-      "id":36,
-      "name":"Grimecheek"
+      "id": 36,
+      "name": "Grimecheek"
     },
     {
-      "id":37,
-      "name":"Boardung"
+      "id": 37,
+      "name": "Boardung"
     },
     {
-      "id":38,
-      "name":"Bitenose"
+      "id": 38,
+      "name": "Bitenose"
     },
     {
-      "id":39,
-      "name":"Fly"
+      "id": 39,
+      "name": "Fly"
     },
     {
-      "id":40,
-      "name":"Rir"
+      "id": 40,
+      "name": "Rir"
     },
     {
-      "id":41,
-      "name":"Mel"
+      "id": 41,
+      "name": "Mel"
     },
     {
-      "id":42,
-      "name":"Pun"
+      "id": 42,
+      "name": "Pun"
     },
     {
-      "id":43,
-      "name":"Qik"
+      "id": 43,
+      "name": "Qik"
     },
     {
-      "id":44,
-      "name":"Qandin"
+      "id": 44,
+      "name": "Qandin"
     },
     {
-      "id":45,
-      "name":"Moldchin"
+      "id": 45,
+      "name": "Moldchin"
     },
     {
-      "id":46,
-      "name":"Sleaze"
+      "id": 46,
+      "name": "Sleaze"
     },
     {
-      "id":47,
-      "name":"Greasefoot"
+      "id": 47,
+      "name": "Greasefoot"
     },
     {
-      "id":48,
-      "name":"Dungbreath"
+      "id": 48,
+      "name": "Dungbreath"
     },
     {
-      "id":49,
-      "name":"Limpnose"
+      "id": 49,
+      "name": "Limpnose"
     },
     {
-      "id":50,
-      "name":"Guk"
+      "id": 50,
+      "name": "Guk"
     },
     {
-      "id":51,
-      "name":"Murza"
+      "id": 51,
+      "name": "Murza"
     },
     {
-      "id":52,
-      "name":"Relnul"
+      "id": 52,
+      "name": "Relnul"
     },
     {
-      "id":53,
-      "name":"Berdru"
+      "id": 53,
+      "name": "Berdru"
     },
     {
-      "id":54,
-      "name":"Palzella"
+      "id": 54,
+      "name": "Palzella"
     },
     {
-      "id":55,
-      "name":"Leechbrain"
+      "id": 55,
+      "name": "Leechbrain"
     },
     {
-      "id":56,
-      "name":"Bait"
+      "id": 56,
+      "name": "Bait"
     },
     {
-      "id":57,
-      "name":"Ant"
+      "id": 57,
+      "name": "Ant"
     },
     {
-      "id":58,
-      "name":"Leechhead"
+      "id": 58,
+      "name": "Leechhead"
     },
     {
-      "id":59,
-      "name":"Ulgrus"
+      "id": 59,
+      "name": "Ulgrus"
     },
     {
-      "id":60,
-      "name":"Dorzuk"
+      "id": 60,
+      "name": "Dorzuk"
     },
     {
-      "id":61,
-      "name":"Ibros"
+      "id": 61,
+      "name": "Ibros"
     },
     {
-      "id":62,
-      "name":"Pargik"
+      "id": 62,
+      "name": "Pargik"
     },
     {
-      "id":63,
-      "name":"Gat"
+      "id": 63,
+      "name": "Gat"
     },
     {
-      "id":64,
-      "name":"Toadwart"
+      "id": 64,
+      "name": "Toadwart"
     },
     {
-      "id":65,
-      "name":"Wartface"
+      "id": 65,
+      "name": "Wartface"
     },
     {
-      "id":66,
-      "name":"Stinknose"
+      "id": 66,
+      "name": "Stinknose"
     },
     {
-      "id":67,
-      "name":"Stinkflab"
+      "id": 67,
+      "name": "Stinkflab"
     },
     {
-      "id":68,
-      "name":"Meekarms"
+      "id": 68,
+      "name": "Meekarms"
     }
   ],
-
-  "GoblinMaleName":[
+  "GoblinMaleName": [
     {
-      "id":1,
-      "name":"Vub"
+      "id": 1,
+      "name": "Vub"
     },
     {
-      "id":2,
-      "name":"Dagrolk"
+      "id": 2,
+      "name": "Dagrolk"
     },
     {
-      "id":3,
-      "name":"Nellas"
+      "id": 3,
+      "name": "Nellas"
     },
     {
-      "id":4,
-      "name":"Higdek"
+      "id": 4,
+      "name": "Higdek"
     },
     {
-      "id":5,
-      "name":"Pudgelk"
+      "id": 5,
+      "name": "Pudgelk"
     },
     {
-      "id":6,
-      "name":"Wormgut"
+      "id": 6,
+      "name": "Wormgut"
     },
     {
-      "id":7,
-      "name":"Leechnose"
+      "id": 7,
+      "name": "Leechnose"
     },
     {
-      "id":8,
-      "name":"Slugnose"
+      "id": 8,
+      "name": "Slugnose"
     },
     {
-      "id":9,
-      "name":"Spiderbait"
+      "id": 9,
+      "name": "Spiderbait"
     },
     {
-      "id":10,
-      "name":"Frailwill"
+      "id": 10,
+      "name": "Frailwill"
     }
   ],
-  "HagFemaleName":[],
-  "HagMaleName":[],
-  "HagNBName":[],
-  "HagFamilyName":[],
-  "HobgoblinFemaleName":[],
-  "HobgoblinMaleName":[],
-  "HobgoblinNBName":[],
-  "HobgoblinFamilyName":[],
-  "KalashtarFemaleName":[],
-  "KalashtarMaleName":[],
-  "KalashtarNBName":[],
-  "KalashtarFamilyName":[],
-  "KenkuFemaleName":[],
-  "KenkuMaleName":[],
-  "KenkuNBName":[],
-  "KenkuFamilyName":[],
-  "KoboldFemaleName":[],
-  "KoboldMaleName":[],
-  "KoboldNBName":[],
-  "KoboldFamilyName":[],
-  "LizardfolkFemaleName":[],
-  "LizardfolkMaleName":[],
-  "LizardfolkNBName":[],
-  "LizardfolkFamilyName":[],
-  "LoxodonFemaleName":[],
-  "LoxodonMaleName":[],
-  "LoxodonNBName":[],
-  "LoxodonFamilyName":[],
-  "MindFlayerFemaleName":[],
-  "MindFlayerMaleName":[],
-  "MindFlayerNBName":[],
-  "MindFlayerFamilyName":[],
-  "MinotaurFemaleName":[],
-  "MinotaurMaleName":[],
-  "MinotaurNBName":[],
-  "MinotaurFamilyName":[],
-  "OrcFemaleName":[],
-  "OrcMaleName":[],
-  "OrcNBName":[],
-  "OrcFamilyName":[],
-  "ShardmindFemaleName":[],
-  "ShardmindMaleName":[],
-  "ShardmindNBName":[],
-  "ShardmindFamilyName":[],
-  "ShifterFemaleName":[],
-  "ShifterMaleName":[],
-  "ShifterNBName":[],
-  "ShifterFamilyName":[],
-  "SimicHybridFemaleName":[],
-  "SimicHybridMaleName":[],
-  "SimicHybridNBName":[],
-  "SimicHybridFamilyName":[],
-  "TabaxiFemaleName":[],
-  "TabaxiMaleName":[],
-  "TabaxiNBName":[],
-  "TabaxiFamilyName":[],
-  "TortleFemaleName":[],
-  "TortleMaleName":[],
-  "TortleNBName":[],
-  "TortleFamilyName":[],
-  "TritonFemaleName":[],
-  "TritonMaleName":[],
-  "TritonNBName":[],
-  "TritonFamilyName":[],
-  "VedalkenFemaleName":[],
-  "VedalkenMaleName":[],
-  "VedalkenNBName":[],
-  "VedalkenFamilyName":[],
-  "WarforgedFemaleName":[],
-  "WarforgedMaleName":[],
-  "WarforgedNBName":[],
-  "WarforgedFamilyName":[],
-  "WildenFemaleName":[],
-  "WildenMaleName":[],
-  "WildenNBName":[],
-  "WildenFamilyName":[],
-  "YuanTiFemaleName":[],
-  "YuanTiMaleName":[],
-  "YuanTiNBName":[],
-  "YuanTiFamilyName":[]
+  "HagFemaleName": [],
+  "HagMaleName": [],
+  "HagNBName": [],
+  "HagFamilyName": [],
+  "HobgoblinFemaleName": [],
+  "HobgoblinMaleName": [],
+  "HobgoblinNBName": [],
+  "HobgoblinFamilyName": [],
+  "KalashtarFemaleName": [],
+  "KalashtarMaleName": [],
+  "KalashtarNBName": [],
+  "KalashtarFamilyName": [],
+  "KenkuFemaleName": [],
+  "KenkuMaleName": [],
+  "KenkuNBName": [],
+  "KenkuFamilyName": [],
+  "KoboldFemaleName": [],
+  "KoboldMaleName": [],
+  "KoboldNBName": [],
+  "KoboldFamilyName": [],
+  "LizardfolkFemaleName": [],
+  "LizardfolkMaleName": [],
+  "LizardfolkNBName": [],
+  "LizardfolkFamilyName": [],
+  "LoxodonFemaleName": [],
+  "LoxodonMaleName": [],
+  "LoxodonNBName": [],
+  "LoxodonFamilyName": [],
+  "MindFlayerFemaleName": [],
+  "MindFlayerMaleName": [],
+  "MindFlayerNBName": [],
+  "MindFlayerFamilyName": [],
+  "MinotaurFemaleName": [],
+  "MinotaurMaleName": [],
+  "MinotaurNBName": [],
+  "MinotaurFamilyName": [],
+  "OrcFemaleName": [],
+  "OrcMaleName": [],
+  "OrcNBName": [],
+  "OrcFamilyName": [],
+  "ShardmindFemaleName": [],
+  "ShardmindMaleName": [],
+  "ShardmindNBName": [],
+  "ShardmindFamilyName": [],
+  "ShifterFemaleName": [],
+  "ShifterMaleName": [],
+  "ShifterNBName": [],
+  "ShifterFamilyName": [],
+  "SimicHybridFemaleName": [],
+  "SimicHybridMaleName": [],
+  "SimicHybridNBName": [],
+  "SimicHybridFamilyName": [],
+  "TabaxiFemaleName": [],
+  "TabaxiMaleName": [],
+  "TabaxiNBName": [],
+  "TabaxiFamilyName": [],
+  "TortleFemaleName": [],
+  "TortleMaleName": [],
+  "TortleNBName": [],
+  "TortleFamilyName": [],
+  "TritonFemaleName": [],
+  "TritonMaleName": [],
+  "TritonNBName": [],
+  "TritonFamilyName": [],
+  "VedalkenFemaleName": [],
+  "VedalkenMaleName": [],
+  "VedalkenNBName": [],
+  "VedalkenFamilyName": [],
+  "WarforgedFemaleName": [],
+  "WarforgedMaleName": [],
+  "WarforgedNBName": [],
+  "WarforgedFamilyName": [],
+  "WildenFemaleName": [],
+  "WildenMaleName": [],
+  "WildenNBName": [],
+  "WildenFamilyName": [],
+  "YuanTiFemaleName": [],
+  "YuanTiMaleName": [],
+  "YuanTiNBName": [],
+  "YuanTiFamilyName": [],
+  "City": [
+    {
+      "id": 1,
+      "name": "Brineholde",
+      "continent": "Ekanta",
+      "government": "Theocracy",
+      "taverns": null,
+      "shops": null
+    },
+    {
+      "id": 2,
+      "name": "Chrobarrow",
+      "continent":"Ekanta",
+      "government":"Theocracy",
+      "taverns":null,
+      "shops":null
+    }
+  ]
 }
