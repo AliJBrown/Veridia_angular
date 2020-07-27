@@ -138,12 +138,6 @@
       "id": 5
     },
     {
-      "race": "human",
-      "gender": "female",
-      "name": "Koli Chodz",
-      "id": 6
-    },
-    {
       "name": "Albela Azak",
       "race": "Goblin",
       "gender": "Female",
@@ -1186,10 +1180,10 @@
     {
       "id": 2,
       "name": "Chrobarrow",
-      "continent":"Ekanta",
-      "government":"Theocracy",
-      "taverns":null,
-      "shops":null
+      "continent": "Ekanta",
+      "government": "Theocracy",
+      "taverns": null,
+      "shops": null
     }
   ]
 }
