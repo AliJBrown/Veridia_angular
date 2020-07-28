@@ -11,19 +11,19 @@ import { CityDetailComponent } from './city-detail/city-detail.component';
 import { LandmarkDetailComponent } from './landmark-detail/landmark-detail.component';
 
 
-const landmarkRoutes: Routes = [
-  { path: 'cities', component: CitiesComponent },
+const locationRoutes: Routes = [
+  { path: 'city', component: CitiesComponent },
   { path: 'city/add', component: AddCityComponent },
   { path: 'city/edit:id', component: EditCityComponent },
   { path: 'city/:id', component:CityDetailComponent },
-  { path: 'landmarks', component: LandmarksComponent },
+  { path: 'landmark', component: LandmarksComponent },
   { path: 'landmark/add', component: AddLandmarkComponent },
   { path: 'landmark/edit/:id', component: EditLandmarkComponent },
   { path: 'landmark/:id', component: LandmarkDetailComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(landmarkRoutes)],
+  imports: [RouterModule.forChild(locationRoutes)],
   exports: [RouterModule]
 })
 export class LocationRoutingModule { }

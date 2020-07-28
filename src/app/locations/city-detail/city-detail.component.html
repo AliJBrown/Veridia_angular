@@ -1,1 +1,14 @@
-<p>city-detail works!</p>
+<div *ngIf="city | async as city">
+    <h4>{{city?.name}}</h4>
+    <p>Continent: {{city?.continent}}</p>
+    <p>Government Type: {{city?.government}}</p>
+    <!-- taverns and shops needs changed to populate by id from shops database -->
+    <p>Taverns: {{city?.taverns}}</p>
+    <p>Shops: {{city?.shops}}</p>
+
+    <p></p>
+<button class="btn btn-dark" type="submit" name="submit" id="submit" routerLink="/city/edit/{{city?.id}}">
+  Edit
+</button>
+<button type="submit" class="btn btn-dark" (click)='gotoCities(city)'>Go Back</button>
+</div>

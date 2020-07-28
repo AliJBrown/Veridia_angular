@@ -1,1 +1,17 @@
-<p>cities works!</p>
+<h1>Cities</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <ul>
+                <!-- <li *ngFor="let city of cities"> -->
+                <li *ngFor="let city of cities | async">
+                    <a [routerLink]="['/city', city.id]">
+                        {{city.name}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<button type="submit" class="btn btn-dark" [routerLink]="['/city/add']" routerLinkActive="router-link-active">Add New</button>
