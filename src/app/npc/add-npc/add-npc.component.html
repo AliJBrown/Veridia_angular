@@ -1,0 +1,138 @@
+<form id="npcForm">
+  <div>
+    <label for="name">Name: </label>
+    <input type="text" name="name" [(ngModel)]="npc.name">
+  </div>
+  <div>
+    <label for="race">Race: </label>
+    <input type="text" name="race" [(ngModel)]="npc.race">
+  </div>
+  <div>
+    <label for="gender">Gender: </label>
+    <input type="text" name="gender" [(ngModel)]="npc.gender">
+  </div>
+  <div>
+    <label for="age">Age: </label>
+    <input type="number" name="age" [(ngModel)]="npc.age">
+  </div>
+  <div>
+    <label for="height">Height: </label>
+    <input type="text" name="height" [(ngModel)]="npc.height">
+  </div>
+  <div>
+    <label for="skin">Skin: </label>
+    <input type="text" name="skin" [(ngModel)]="npc.skin">
+  </div>
+  <div>
+    <label for="hair">Hair: </label>
+    <input type="text" name="hair" [(ngModel)]="npc.hair">
+  </div>
+  <div>
+    <label for="face">Face: </label>
+    <input type="text" name="face" [(ngModel)]="npc.face">
+  </div>
+  <div>
+    <label for="build">Build: </label>
+    <input type="text" name="build" [(ngModel)]="npc.build">
+  </div>
+  <div>
+    <label for="garb">Garb: </label>
+    <input type="text" name="garb" [(ngModel)]="npc.garb">
+  </div>
+  <div>
+    <label for="smell">Smell: </label>
+    <input type="text" name="smell" [(ngModel)]="npc.smell">
+  </div>
+  <div>
+    <label for="description">Description: </label>
+    <textarea name="description" [(ngModel)]="npc.description"></textarea>
+  </div>
+  <br>
+  <div>
+    <label for="alignment">Alignment: </label>
+    <!-- TODO update to select with enum options -->
+    <input type="text" name="alignment" [(ngModel)]="npc.alignment">
+  </div>
+  <div>
+    <label for="personality">Personality: </label>
+    <input type="text" name="personality" [(ngModel)]="npc.personality">
+  </div>
+  <br>
+  <div>
+    <label for="people">People: </label>
+    <!-- TODO update to pull people from JSON and create dropdown -->
+    <input type="text" name="people" [(ngModel)]="npc.people">
+  </div>
+  <div>
+    <label for="location">Location: </label>
+    <!-- TODO update to pull from locations in JSON and create dropdown -->
+    <input type="text" name="location" [(ngModel)]="npc.location">
+  </div>
+  <br>
+  <div>
+    <label for="plothook">Plothook: </label>
+    <textarea name="plothook" [(ngModel)]="npc.plothook"></textarea>
+  </div>
+  <br>
+  <div>
+    <label for="notes">Notes: </label>
+    <textarea name="notes" [(ngModel)]="npc.notes"></textarea>
+  </div>
+  <div>
+    <label for="deceased">Deceased: </label>
+    <!-- TODO fix checkbox to tie to model -->
+    <input type="checkbox" name="deceased" [checked]="npc.deceased">
+  </div>
+
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Str</th>
+        <th scope="col">Dex</th>
+        <th scope="col">Con</th>
+        <th scope="col">Int</th>
+        <th scope="col">Wis</th>
+        <th scope="col">Cha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Attribute</th>
+        <td>
+          <input type="number" name="str" [(ngModel)]="npc.str">
+        </td>
+        <td>
+          <input type="number" name="dex" [(ngModel)]="npc.dex">
+        </td>
+        <td>
+          <input type="number" name="con" [(ngModel)]="npc.con">
+        </td>
+        <td>
+          <input type="number" name="int" [(ngModel)]="npc.int">
+        </td>
+        <td>
+          <input type="number" name="wis" [(ngModel)]="npc.wis">
+        </td>
+        <td>
+          <input type="number" name="cha" [(ngModel)]="npc.cha">
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Modifier</th>
+        <td>{{calcMod(npc?.str)}}</td>
+        <td>{{calcMod(npc?.dex)}}</td>
+        <td>{{calcMod(npc?.con)}}</td>
+        <td>{{calcMod(npc?.int)}}</td>
+        <td>{{calcMod(npc?.wis)}}</td>
+        <td>{{calcMod(npc?.cha)}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p></p>
+  <button class="btn btn-dark" type="submit" name="submit" id="submit" (click)="Create(npc)">
+    Save
+  </button>
+  <button class="btn btn-dark" type="button" (click)='goBack()'>Cancel</button>
+  <button class="btn btn-dark" type="button" (click)='generate()'>Generate</button>
+</form>
